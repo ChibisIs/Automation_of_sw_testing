@@ -1,0 +1,7 @@
+{
+    "editor.minimap.showMarkSectionHeaders": true,
+    "editor.minimap.showRegionSectionHeaders": true,
+    "editor.parameterHints.enabled": true,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "java.debug.settings.onBuildFailureProceed": true
+}
