@@ -1,7 +1,5 @@
 package lesson_2;
 
-import java.util.Scanner; 
-
 public class Test {
     //1
     static void printThreeWords() {
