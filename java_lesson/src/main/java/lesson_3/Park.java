@@ -2,7 +2,11 @@ package lesson_3;
 import java.util.ArrayList;
 
 public class Park {
-    private ArrayList<Atraction> arrayAtractions = new ArrayList<>();
+    private ArrayList<Atraction> arrayAtractions;
+
+    public Park() {
+        arrayAtractions = new ArrayList<>();
+    }
 
     public class Atraction {
         private String name;
@@ -20,12 +24,15 @@ public class Park {
         public void setName(String name) {
             this.name = name;
         }
+
         public void setFromTime(int fromTime) {
             this.fromTime = fromTime;
         }
+
         public void setToTime(int toTime) {
             this.toTime = toTime;
         }
+
         public void setPrice(float price) {
             this.price = price;
         }
@@ -35,6 +42,7 @@ public class Park {
         Atraction atraction1 = new Atraction(name, fromTime, toTime, price);
         arrayAtractions.add(atraction1);
     }
+    
     public void getInfo() {
         for (Atraction atraction : arrayAtractions) {
             System.out.println("Attraction Name: " + atraction.name);
