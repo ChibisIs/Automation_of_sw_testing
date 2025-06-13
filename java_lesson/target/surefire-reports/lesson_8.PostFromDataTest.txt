@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: lesson_7_junit_5.ArithmeticTest
+Test set: lesson_8.PostFromDataTest
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.130 s -- in lesson_7_junit_5.ArithmeticTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.772 s -- in lesson_8.PostFromDataTest
