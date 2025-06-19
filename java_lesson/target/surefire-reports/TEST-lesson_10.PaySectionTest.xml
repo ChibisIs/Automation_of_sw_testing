@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="lesson_7_junit_5.ArithmeticTest" time="0.049" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="lesson_10.PaySectionTest" time="78.661" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -67,25 +67,63 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="restTriangleAreaInvalid" classname="lesson_7_junit_5.ArithmeticTest" time="0.003"/>
-  <testcase name="testCompareLess" classname="lesson_7_junit_5.ArithmeticTest" time="0.006">
-    <system-out><![CDATA[5 < 10
-]]></system-out>
+  <testcase name="testPlaceholder1" classname="lesson_10.PaySectionTest" time="7.087">
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jun 19, 2025 5:19:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 19, 2025 5:19:44 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
   </testcase>
-  <testcase name="testfactorial1" classname="lesson_7_junit_5.ArithmeticTest" time="0.0"/>
-  <testcase name="testFactorial20" classname="lesson_7_junit_5.ArithmeticTest" time="0.0"/>
-  <testcase name="testCompareGreater" classname="lesson_7_junit_5.ArithmeticTest" time="0.0">
-    <system-out><![CDATA[10 > 5
-]]></system-out>
+  <testcase name="testPlaceholder2" classname="lesson_10.PaySectionTest" time="8.558">
+    <system-err><![CDATA[Jun 19, 2025 5:19:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 19, 2025 5:19:50 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
   </testcase>
-  <testcase name="testTriangleArea1" classname="lesson_7_junit_5.ArithmeticTest" time="0.0"/>
-  <testcase name="testTriangleArea2" classname="lesson_7_junit_5.ArithmeticTest" time="0.0"/>
-  <testcase name="testArithmetic1" classname="lesson_7_junit_5.ArithmeticTest" time="0.0"/>
-  <testcase name="testArithmetic2" classname="lesson_7_junit_5.ArithmeticTest" time="0.015"/>
-  <testcase name="testFactorial0" classname="lesson_7_junit_5.ArithmeticTest" time="0.0"/>
-  <testcase name="testCompareEqual" classname="lesson_7_junit_5.ArithmeticTest" time="0.0">
-    <system-out><![CDATA[10 = 10
-]]></system-out>
+  <testcase name="testPlaceholder3" classname="lesson_10.PaySectionTest" time="11.941">
+    <system-err><![CDATA[Jun 19, 2025 5:19:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 19, 2025 5:19:59 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
   </testcase>
-  <testcase name="testFactorialNegative" classname="lesson_7_junit_5.ArithmeticTest" time="0.0"/>
+  <testcase name="testPlaceholder4" classname="lesson_10.PaySectionTest" time="11.541">
+    <system-err><![CDATA[Jun 19, 2025 5:20:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 19, 2025 5:20:11 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testLogos" classname="lesson_10.PaySectionTest" time="4.817">
+    <system-err><![CDATA[Jun 19, 2025 5:20:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 19, 2025 5:20:22 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testForm" classname="lesson_10.PaySectionTest" time="18.459">
+    <system-err><![CDATA[Jun 19, 2025 5:20:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 19, 2025 5:20:27 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testLink" classname="lesson_10.PaySectionTest" time="11.795">
+    <system-err><![CDATA[Jun 19, 2025 5:20:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 19, 2025 5:20:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testBlockTitle" classname="lesson_10.PaySectionTest" time="4.447">
+    <system-err><![CDATA[Jun 19, 2025 5:20:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 19, 2025 5:20:57 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
 </testsuite>
