@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: lesson_10.PaySectionTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 86.87 s -- in lesson_10.PaySectionTest

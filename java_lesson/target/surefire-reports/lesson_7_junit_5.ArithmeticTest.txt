@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: lesson_7_junit_5.ArithmeticTest
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s -- in lesson_7_junit_5.ArithmeticTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s -- in lesson_7_junit_5.ArithmeticTest
